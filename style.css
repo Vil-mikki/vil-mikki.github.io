@@ -1,0 +1,130 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0; 
+	font-family: "Source Sans Pro", sans-serif;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.wrapper {
+	max-width: 50rem;
+	min-width: 20rem;
+	margin: 1.5rem auto;
+}
+
+.contacts {
+	display: flex;
+	align-items: flex-start;
+}
+
+.contacts__photo {
+	margin-right: 1.5rem;
+	width: 12.1rem;
+	height: 15.6rem;
+}
+
+.contacts__body {
+	flex: 1;
+}
+
+.contacts__name {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.contacts__links {
+	margin: 0;
+	margin-right: 4rem;
+	float: right;
+}
+
+.contacts__tel {
+	margin-top: 1.7rem;
+	margin-bottom: 0;
+}
+
+.contacts__adr {
+	margin-bottom: 2.5rem;
+}
+
+section {
+	margin-top: 5rem;
+	display: flex;
+}
+
+.header {
+	margin-right: 2rem;
+	width: 12rem;
+}
+
+.time {
+	text-align: center;
+	font-size: .9rem;
+}
+
+.location {
+	margin-top: 0;
+}
+
+.content {
+	flex: 1;
+	margin-top: 3rem;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 1.3rem;
+}
+
+.details {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.org {
+	margin-top: 2.3rem;
+	margin-bottom: 0;
+	font-size: 1.3rem;
+}
+
+.details {
+	margin-top: 0;
+}
+
+.education h3 {
+	margin-top: 0;
+}
+
+.summary ul {
+	padding-left: 1rem;
+	list-style: square;
+}
+
+.additional__education--time li {
+	margin-bottom: 3.2rem;
+}
+
+.skills .content,
+.interests .content {
+	margin-top: 2rem;
+}
+
+.social-work .content {
+	margin-top: 3.5rem;
+}
+
+.social-work > .content ul {
+	padding-left: 1rem;
+	list-style: square;
+}
