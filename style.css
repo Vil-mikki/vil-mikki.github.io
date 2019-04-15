@@ -123,6 +123,10 @@ h2 {
 	margin-bottom: 3.2rem;
 }
 
+.additional__education--time li:last-child {
+	margin-top: 4.3rem;
+}
+
 .skills .content,
 .interests .content {
 	margin-top: 2rem;
